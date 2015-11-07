@@ -31,7 +31,7 @@ defmodule Tetris.Mixfile do
     [{:phoenix, github: "phoenixframework/phoenix", override: true},
      {:phoenix_ecto, "~> 0.3"},
      {:postgrex, ">= 0.0.0"},
-     {:phoenix_live_reload, "~> 0.3"},
+     #{:phoenix_live_reload, "~> 0.3"},
      {:cowboy, "~> 1.0"}]
   end
 end
